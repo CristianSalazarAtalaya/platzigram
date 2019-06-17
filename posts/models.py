@@ -13,7 +13,7 @@ class User(models.Model):
 
     is_admin = models.BooleanField(default=False)
 
-    brio = models.TextField(bxlank=True)
+    brio = models.TextField(blank=True)
 
     birthdate = models.DateField(blank=True, null=True)
 
